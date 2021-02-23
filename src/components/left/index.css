@@ -1,0 +1,15 @@
+.left-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-right: 3px solid red;
+}
+.left-container .item{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 6px;
+}
